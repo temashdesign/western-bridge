@@ -2,6 +2,7 @@ import { Header } from '@/components/Header'
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import { PageHeader } from '@/components/PageHeader'
+import { AboutUs } from '@/components/AboutUs'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -21,7 +22,9 @@ export default function Home() {
       <div className={`${inter.variable} font-sans`}>
         <Header />
         <PageHeader />
-        <main></main>
+        <main>
+          <AboutUs />
+        </main>
       </div>
     </>
   )

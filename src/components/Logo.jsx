@@ -52,8 +52,8 @@ export function Logo({ className, ...props }) {
           </defs>
         </svg>
       </div>
-      <h2 className="mt-2 flex space-x-2 font-sans text-4xl font-black uppercase">
-        <span className="text-blue-500">Western</span>
+      <h2 className="mt-2 flex space-x-2 font-sans text-[26px] font-black uppercase md:text-4xl">
+        <span className="text-primary">Western</span>
         <span>Bridge</span>
         <span className="font-light -tracking-wide">DOO</span>
       </h2>
