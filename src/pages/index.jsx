@@ -28,6 +28,7 @@ export default function Home() {
         <main>
           <AboutUs />
           <ServiceLists />
+          <div className="h-40"></div>
         </main>
       </div>
     </ParallaxProvider>

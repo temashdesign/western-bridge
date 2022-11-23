@@ -19,7 +19,11 @@ export function PageHeader({ className, ...props }) {
         <Parallax speed={contentYOffset} className="z-10">
           <AnimatedTitle
             className="page-header-title mx-auto px-10 text-center text-4xl font-extrabold leading-[1.15] text-white md:text-[80px] lg:max-w-7xl lg:-translate-y-6 xl:text-[100px]"
-            text={['We staff your business', 'on 5 continents of the', 'world']}
+            text={[
+              'We staff your business',
+              'on 5 continents of ',
+              'the world',
+            ]}
           />
         </Parallax>
 

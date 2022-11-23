@@ -12,10 +12,6 @@ const World = motion.span
 
 export default function AnimatedTitle({ className, ...props }) {
   const text = props.text
-  // const text = ['We staff your business', 'on 5 continents of the', 'world']
-  const textFull = text.join(' ')
-
-  console.log(textFull)
 
   const ctrls = useAnimation()
 
@@ -57,7 +53,7 @@ export default function AnimatedTitle({ className, ...props }) {
     <h2
       aria-label={text.join(' ')}
       role="heading"
-      className={clsx('relative z-10', className)}
+      className={clsx('relative z-10 grid', className)}
     >
       {text.map((word, index) => {
         return (
