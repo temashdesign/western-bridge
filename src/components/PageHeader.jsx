@@ -18,7 +18,7 @@ export function PageHeader({ className, ...props }) {
       <div className="relative grid  items-center py-20 md:py-40">
         <Parallax speed={contentYOffset} className="z-10">
           <AnimatedTitle
-            className="page-header-title mx-auto px-10 text-center text-4xl font-extrabold leading-[1.15] text-white md:text-[80px] lg:max-w-7xl lg:-translate-y-6 xl:text-[100px]"
+            className="page-header-title mx-auto -translate-y-3 px-10 text-center text-4xl font-extrabold leading-[1.15] text-white md:text-[80px] lg:max-w-7xl lg:-translate-y-6 xl:text-[100px]"
             text={[
               'We staff your business',
               'on 5 continents of ',

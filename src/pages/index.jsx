@@ -5,6 +5,7 @@ import { Inter } from '@next/font/google'
 import { PageHeader } from '@/components/PageHeader'
 import { AboutUs } from '@/components/AboutUs'
 import { ServiceLists } from '@/components/ServiceLists'
+import { Contact } from '@/components/Contact'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -28,7 +29,7 @@ export default function Home() {
         <main>
           <AboutUs />
           <ServiceLists />
-          <div className="h-40"></div>
+          <Contact />
         </main>
       </div>
     </ParallaxProvider>

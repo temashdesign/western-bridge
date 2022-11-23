@@ -11,7 +11,7 @@ export function AboutUs({ className, ...props }) {
   return (
     <div
       className={clsx(
-        'mx-auto w-full max-w-7xl py-4 px-6 md:px-20 xl:px-4',
+        'mx-auto w-full max-w-7xl py-4 px-6 md:px-20 xl:px-10',
         className
       )}
       {...props}

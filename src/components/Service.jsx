@@ -88,21 +88,6 @@ export function Service({ className, ...props }) {
         },
       }
 
-  // const lineAnimation = {
-  //   hidden: {
-  //     opacity: 0,
-  //     height: `0px`,
-  //   },
-  //   visible: {
-  //     opacity: 1,
-  //     height: `100px`,
-  //     transition: {
-  //       duration: 1,
-  //       ease: [0.2, 0.65, 0.3, 0.9],
-  //     },
-  //   },
-  // }
-
   const imageAnimation = {
     hidden: {
       opacity: 0,
