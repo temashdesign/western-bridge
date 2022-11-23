@@ -1,3 +1,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.page-header-title {
+  @apply grid;
+
+  > span:first-child {
+    span {
+      @apply bg-gradient-to-r from-[#1CF6D4] to-primary bg-clip-text text-transparent;
+    }
+  }
+}

@@ -1,8 +1,10 @@
+import { ParallaxProvider } from 'react-scroll-parallax'
 import { Header } from '@/components/Header'
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import { PageHeader } from '@/components/PageHeader'
 import { AboutUs } from '@/components/AboutUs'
+import { ServiceLists } from '@/components/ServiceLists'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -11,7 +13,7 @@ const inter = Inter({
 
 export default function Home() {
   return (
-    <>
+    <ParallaxProvider>
       <Head>
         <title>Western Bridge DOO - Metals and equipment</title>
         <meta
@@ -22,10 +24,12 @@ export default function Home() {
       <div className={`${inter.variable} font-sans`}>
         <Header />
         <PageHeader />
+
         <main>
           <AboutUs />
+          <ServiceLists />
         </main>
       </div>
-    </>
+    </ParallaxProvider>
   )
 }
