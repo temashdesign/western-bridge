@@ -13,6 +13,7 @@ export function Contact() {
     email: '',
     message: '',
   })
+  
 
   // Form status
   const [status, setStatus] = useState('unsubmitted')
@@ -38,7 +39,7 @@ export function Contact() {
       formData.append(key, value)
     })
 
-    fetch('https://getform.io/f/0d4798a8-9372-4ba9-aaeb-dc4da245707b', {
+    fetch('https://getform.io/f/e526c327-9a4e-4a77-aa76-5a828a087e6d', {
       method: 'POST',
       body: formData,
     })
